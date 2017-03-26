@@ -1,0 +1,4 @@
+configuration:  
+  projectName: tci-eureka
+server:
+  port: 8000

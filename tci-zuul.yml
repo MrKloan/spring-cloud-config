@@ -1,0 +1,4 @@
+configuration:  
+  projectName: tci-zuul
+server:
+  port: 8001
