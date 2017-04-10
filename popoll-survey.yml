@@ -2,3 +2,8 @@ configuration:
   projectName: popoll-survey
 server:
   port: 8001
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
