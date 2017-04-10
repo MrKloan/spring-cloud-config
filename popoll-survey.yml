@@ -1,0 +1,4 @@
+configuration:  
+  projectName: popoll-survey
+server:
+  port: 8001
