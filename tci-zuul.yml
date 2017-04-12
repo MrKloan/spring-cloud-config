@@ -2,3 +2,8 @@ configuration:
   projectName: tci-zuul
 server:
   port: 8001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
