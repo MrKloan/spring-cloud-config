@@ -2,3 +2,8 @@ configuration:
   projectName: tci-eureka
 server:
   port: 8000
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
