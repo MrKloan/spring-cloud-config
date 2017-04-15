@@ -1,6 +1,5 @@
-spring:  
-  application:
-    name: tci-eureka
+configuration:  
+  projectName: popoll-eureka
 
 server:
   port: 8000
