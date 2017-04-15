@@ -1,10 +1,13 @@
-configuration:  
-  projectName: tci-eureka
+spring:  
+  application:
+    name: tci-eureka
 
 server:
   port: 8000
 
 eureka:
+  instance:
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
